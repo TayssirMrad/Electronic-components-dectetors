@@ -1,4 +1,7 @@
 # Electronic-components-dectetors : CNN in Edge Impulse
+
+![leddiodecapacitorresistor](https://github.com/TayssirMrad/Electronic-components-dectetors/assets/60198040/28bdb6fb-da4e-4945-b263-ac046d78873f)
+
 L'objectif de ce projet était d'explorer l'entraînement d'un réseau neuronal convolutif (CNN) à l'aide d'Edge Impulse, en passant au-delà des réseaux neuronaux denses traditionnels. Nous avons utilisé un ensemble de données contenant des composants électroniques, et le projet impliquait la conversion d'images, le téléchargement de l'ensemble de données, la création d'une impulsion, l'extraction de fonctionnalités, et enfin, l'entraînement du CNN.
 
 1. Téléchargement de l'ensemble de données
@@ -32,4 +35,5 @@ Après avoir tenté d'ajuster les hyperparamètres du modèle, y compris le nomb
 ![P4_training___2](https://github.com/TayssirMrad/Electronic-components-dectetors/assets/60198040/be8b8650-9454-4c8d-aab1-f4a5570b7c84)
 
 5.Conclusion
+
 Grâce à ces ajustements, l'exactitude sur l'ensemble de données de validation a été significativement améliorée. Par exemple, en augmentant le nombre de cycles d'entraînement de 150 à 200 et en introduisant une couche de désactivation après la première couche de convolution, ainsi qu'en modifiant la deuxième couche de convolution pour intégrer 28 filtres, nous avons observé une augmentation de la précision de 90.2% à 95.1%. De plus, une diminution notable de la perte (loss) est également observée, passant de 1.05 à 0.97.
